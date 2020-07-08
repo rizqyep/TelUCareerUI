@@ -36,6 +36,8 @@ form .btn-daftar {
 }
 
 .rekom-box {
+	padding-top: 60px;
+	padding-bottom: 80px;
 	background-color: #6d6c6cd3;
 	color: white;
 	font-weight: 400;
