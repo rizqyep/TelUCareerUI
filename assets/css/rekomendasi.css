@@ -1,0 +1,68 @@
+@media only screen and (min-width: 600px) {
+	.regist-box {
+		width: 40vw;
+	}
+
+}
+
+body {
+	background-color: #fc8c8ce8;
+	font-family: 'Montserrat';
+}
+
+.navbar {
+	background-color: rgb(214, 10, 10);
+
+
+}
+
+.navbar-nav .nav-item {
+
+	font-weight: 600;
+}
+
+.navbar-nav .current {
+	background-color: rgba(247, 59, 59, 0.842);
+}
+
+label {
+	font-weight: bold;
+}
+
+form .btn-daftar {
+	width: 100%;
+	background-color: rgb(219, 20, 20);
+	color: white;
+	font-weight: 600;
+}
+
+.rekom-box {
+	background-color: #6d6c6cd3;
+	color: white;
+	font-weight: 400;
+}
+
+.rekom-box .btn-pelatihan {
+	background-color: rgb(233, 79, 79);
+	color: white;
+	font-weight: 600;
+}
+
+
+.left-caption {
+	text-shadow: 1px 1px 5px rgb(44, 44, 44);
+	color: white;
+	line-height: 50px;
+
+}
+
+.right-box .btn-internship {
+	background-color: rgba(51, 170, 172, 0.54);
+	color: white;
+
+	padding-bottom: 15px;
+	height: 50px;
+	width: 200px;
+	font-size: 24px;
+	font-weight: 600;
+}
