@@ -17,7 +17,6 @@ body {
 }
 
 .navbar-nav .nav-item {
-
 	font-weight: 600;
 }
 
@@ -29,7 +28,7 @@ label {
 	font-weight: bold;
 }
 
-form .btn-daftar {
+form .btn-login {
 	width: 100%;
 	background-color: rgb(219, 20, 20);
 	color: white;
