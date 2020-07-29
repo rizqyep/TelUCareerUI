@@ -32,20 +32,31 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto text-center">
-				<li class="nav-item active mr-3" style="height : 100%">
+				<li class="nav-item active mr-3 current" style="height : 100%">
 					<a class="nav-link active" href="index.html">Home</a>
 				</li>
 				<li class="nav-item mr-3">
 					<a class="nav-link active" href="login.html">Login</a>
 				</li>
 				<li class="nav-item mr-3">
-					<a class="nav-link active current" href="rekomendasi.html">Rekomendasi Pelatihan</a>
+					<a class="nav-link active" href="rekomendasi.html">Rekomendasi Pelatihan</a>
 				</li>
 				<li class="nav-item mr-3">
 					<a class="nav-link active" href="#">Wrap Internship</a>
 				</li>
 
 			</ul>
+		</div>
+		<div class="dropdown show">
+			<a class="nav-link mr-2 dropdown-toggle text-decoration-none text-white" href="#" role="button"
+				id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Lainnya
+			</a>
+			<div class="dropdown-menu pb-3 bg-danger" style="width : 220px;" aria-labelledby=" dropdownMenuLink">
+				<a class="dropdown-item text-white mt-3" href="contact_us.html">Contact Us</a>
+				<hr class="bg-light">
+				<a class="dropdown-item text-white mt-3" href="pelatihan_sebelumnya.html">Pelatihan Sebelumnya</a>
+			</div>
 		</div>
 		<a class="navbar-brand font-weight-bold" href="index.html"><img src="assets/img/telkomlogo.png" height=50
 				alt="">
@@ -57,35 +68,27 @@
 	<div class="container mb-5">
 		<div class="regist-box shadow-lg mx-auto  pl-4 pr-4 pb-1" style="margin-top : 10%;">
 			<div class="regist-box-header pt-3">
-				<center>
-					<h4 class="mt-3 mb-4">Daftar Pelatihan</h4>
-					<p class="mt-2 mb-2 text-muted">Isikan data diri kamu dibawah ini</p>
-				</center>
+
+				<h4 class="mt-3 mb-4 font-weight-bold text-center">Form Pendaftaran</h4>
+				<p class="mt-2 mb-2 text-muted text-center">Isikan data diri kamu dibawah ini</p>
+
 				<div class="form-container mb-5">
 					<form action="">
-						<div class="row mb-3">
-							<div class="col-6">
-								<label for="nama-depan">Nama Depan</label>
-								<input id="nama-depan" type="text" class="form-control top" name="nama-depan"
-									placeholder="Nama Depan">
-							</div>
-							<div class="col-6">
-								<label for="nama-belakang">Nama Belakang</label>
-								<input id="nama-belakang" type="text" class="form-control top" name="nama-belakang"
-									placeholder="Nama belakang">
-							</div>
-						</div>
+
 						<div class="form-group">
-							<label for="tanggal-lahir">Tanggal Kelahiran</label>
-							<input id="tanggal-lahir" type="date" class="form-control" placeholder="Tanggal Kelahiran">
+							<label for="nama-depan">Nama Depan</label>
+							<input id="nama-depan" type="text" class="form-control" name="nama-depan"
+								placeholder="Nama Depan">
 						</div>
+
+
 						<div class="form-group">
 							<label for="nim">NIM</label>
 							<input id="nim" type="text" class="form-control" placeholder="NIM anda">
 						</div>
 						<div class="form-group">
-							<label for="fakultas">Fakultas</label>
-							<input id="fakultas" type="text" class="form-control" placeholder="Fakultas anda">
+							<label for="email">Email</label>
+							<input id="email" type="text" class="form-control" placeholder="E-mail anda">
 						</div>
 						<div class="form-group">
 							<label for="jurusan">Jurusan</label>
@@ -93,18 +96,9 @@
 						</div>
 
 						<div class="form-group">
-							<label for="jenis-pelatihan">Pilih Jenis Pelatihan</label>
-							<select id="jenis-pelatihan" type="date" class="form-control">
-								<option value="">Pilih Jenis Pelatihan</option>
-								<option value="">Hard Skill</option>
-								<option value="">Soft Skill</option>
-								<option value="">Surabaya</option>
-							</select>
-						</div>
-
-						<div class="form-group">
-							<label for="email">E-mail</label>
-							<input id="email" type="email" class="form-control" placeholder="E-mail">
+							<label for="pelatihan">Pelatihan yang anda ikuti</label>
+							<textarea name="pelatihan" id="pelatihan" cols="30" rows="5" class="form-control"
+								placeholder="Ketikkan nama pelatihan"></textarea>
 						</div>
 						<button class="btn btn-daftar mt-2">Daftar</button>
 					</form>
