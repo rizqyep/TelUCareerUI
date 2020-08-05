@@ -1,0 +1,41 @@
+@media only screen and (min-width: 600px) {
+	.regist-box {
+		width: 40vw;
+	}
+
+}
+
+body {
+	background-image: url('./assets/img/forest.jpg');
+	font-family: 'Montserrat';
+}
+
+.navbar {
+	background-color: rgb(214, 10, 10);
+
+
+}
+
+.navbar-nav .nav-item {
+	font-weight: 600;
+}
+
+.navbar-nav .current {
+	background-color: rgba(247, 59, 59, 0.842);
+}
+
+label {
+	font-weight: bold;
+}
+
+form .btn-login {
+	width: 100%;
+	background-color: rgb(219, 20, 20);
+	color: white;
+	font-weight: 600;
+}
+
+.regist-box {
+	background-color: #eeeeeeee;
+	border-radius: 5px;
+}
