@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tel U Career - Pendaftar</title>
+
+	<link rel="stylesheet" href="assets/css/home.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<style>
+		body {
+			background: url('./assets/img/forest.jpg');
+			background-repeat: no-repeat;
+			font-family: 'Montserrat';
+		}
+
+		tr {
+			height: 40px;
+			padding-top: 10px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<!-- Start Navbar Section -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-">
+
+		<button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto text-center">
+				<li class="nav-item active mr-3 current" style="height : 100%">
+					<a class="nav-link active" href="./index.html">Home</a>
+				</li>
+				<li class="nav-item active current dropdown" style="height : 100%;">
+					<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						Pendaftar
+					</a>
+					<div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item text-white" href="./pendaftar.html">Data Yang Mendaftar</a>
+						<a class="dropdown-item text-white" href="./hadir.html">Data Yang Hadir</a>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+
+		<a class="navbar-brand font-weight-bold" href="index.html"><img src="assets/img/telkomlogo.png" height=50
+				alt="">
+			Tel-U
+			Career</a>
+	</nav>
+	<!-- End Navbar Section -->
+	<!--Content Section-->
+	<div class="container mt-5 pt-5 pb-5 pr-5 pl-5 mb-5 bg-white rounded shadow">
+		<h1 class="text-center mb-5">
+			Kegiatan HardSkill / SoftSkill
+		</h1>
+
+		<form action="#" class="pb-5 ">
+			<div class="form-group">
+				<label for="pelatihan" class="font-weight-bold">Pelatihan</label>
+				<input type="text" class="form-control" id="pelatihan" value="Nama Pelatihan">
+			</div>
+
+			<div class="form-group">
+				<label for="tanggalpelatihan" class="font-weight-bold">Tanggal Pelatihan</label>
+				<input type="date" class="form-control" id="tanggalpelatihan" value="Tanggal Pelatihan">
+			</div>
+
+
+			<div class="form-group">
+				<label for="jam" class="font-weight-bold">Jam</label>
+				<input type="hour" class="form-control" id="jam" value="Jam Pelatihan">
+			</div>
+
+			<div class="form-group">
+				<label for="moderator">Nama Moderator</label>
+				<input type="text" class="form-control" id="moderator" value="Nama Moderator">
+			</div>
+
+			<div class="form-group">
+				<label for="Pembicara">Nama Pembicara</label>
+				<input type="text" class="form-control" id="Pembicara" value="Nama Pembicara">
+			</div>
+
+			<div class="form-group">
+				<label for="Publikasi">Link Publikasi</label>
+				<input type="text" class="form-control" id="Publikasi" value="Link Publikasi">
+			</div>
+			<div class="form-group">
+				<button class="btn btn-danger text-white float-right mt-3 mb-3">Masukkan Data</button>
+			</div>
+		</form>
+
+	</div>
+
+
+	<!--End Content Section-->
+	<!-- End Navbar Section -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+	<script async defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
